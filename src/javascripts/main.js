@@ -1,3 +1,5 @@
 import '../styles/main.scss';
 
-console.error('luke helped');
+$('#button').click(() => {
+  console.error('it worked');
+});
